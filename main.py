@@ -9,6 +9,7 @@
 #9. Mostrar un resumen general del sistema.
 #10. Salir.
 from Registrar_Mascotas import mascotas_JSON
+from Mostrar_Mascotas import mostrar_JSON
 
 def programa():
     print("------------------------------------")
@@ -33,7 +34,7 @@ def programa():
         if opcion == "1":
             mascotas_JSON()
         elif opcion == "2":
-            print("Mostrar las mascotas registradas")
+            mostrar_JSON()
         elif opcion == "3":
             print("Buscar una mascota por código")
         elif opcion == "4":
