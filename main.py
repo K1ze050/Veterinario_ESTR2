@@ -8,8 +8,9 @@
 #8. Asociar al menos un archivo externo a una mascota.
 #9. Mostrar un resumen general del sistema.
 #10. Salir.
-from Registrar_Mascotas import mascotas_JSON
-from Mostrar_Mascotas import mostrar_JSON
+
+
+
 
 def programa():
     print("------------------------------------")
@@ -32,11 +33,14 @@ def programa():
         opcion = input("Seleccione una opción: ")
         
         if opcion == "1":
+            from Registrar_Mascotas import mascotas_JSON
             mascotas_JSON()
         elif opcion == "2":
+            from Mostrar_Mascotas import mostrar_JSON
             mostrar_JSON()
         elif opcion == "3":
-            print("Buscar una mascota por código")
+            from Buscar_Mascotas import buscar_Codigo
+            buscar_Codigo()
         elif opcion == "4":
             print("Registrar una consulta para una mascota")
         elif opcion == "5":
