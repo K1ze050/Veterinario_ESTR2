@@ -52,8 +52,18 @@ def programa():
         elif opcion == "6":
             from registrar_vacunas import registrar_vacuna
             registrar_vacuna()
-
         elif opcion == "7":
             from consultar_vacunas import consultar_vacunas
             consultar_vacunas()
+        elif opcion == "8":
+            from archivos_externos import asociar_archivo
+            asociar_archivo()
+        elif opcion == "9":
+            from resumen import mostrar_resumen
+            mostrar_resumen()
+        elif opcion == "10":
+            print("Saliendo del programa...")
+            break
+        else:
+            print("Por favor seleccione una opción valida del menú...")
 programa()
