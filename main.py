@@ -50,5 +50,10 @@ def programa():
             codigo_mascota = input("Código de la mascota: ")
             consultar_historial(codigo_mascota)
         elif opcion == "6":
-            print("Registrar una vacuna")
+            from registrar_vacunas import registrar_vacuna
+            registrar_vacuna()
+
+        elif opcion == "7":
+            from consultar_vacunas import consultar_vacunas
+            consultar_vacunas()
 programa()
