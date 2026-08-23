@@ -1,0 +1,29 @@
+[
+  {
+    "codigo_consulta": "C001",
+    "codigo_mascota": "M001",
+    "fecha": "2026-08-10",
+    "motivo": "Vómito y falta de apetito",
+    "diagnostico": "Gastritis leve",
+    "tratamiento": "Dieta blanda y antiácido por 5 días",
+    "costo": 150.00
+  },
+  {
+    "codigo_consulta": "C002",
+    "codigo_mascota": "M001",
+    "fecha": "2026-08-17",
+    "motivo": "Revisión de control",
+    "diagnostico": "Recuperación satisfactoria",
+    "tratamiento": "Ninguno, alta médica",
+    "costo": 80.00
+  },
+  {
+    "codigo_consulta": "C003",
+    "codigo_mascota": "M002",
+    "fecha": "2026-08-15",
+    "motivo": "Cojera en pata trasera",
+    "diagnostico": "Esguince leve",
+    "tratamiento": "Reposo y antiinflamatorio 7 días",
+    "costo": 200.00
+  }
+]
