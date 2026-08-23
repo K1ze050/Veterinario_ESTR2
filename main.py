@@ -42,9 +42,13 @@ def programa():
             from Buscar_Mascotas import buscar_Codigo
             buscar_Codigo()
         elif opcion == "4":
-            print("Registrar una consulta para una mascota")
+            from funciones_consultas import registrar_consulta
+            codigo_mascota = input("Código de la mascota: ")
+            registrar_consulta(codigo_mascota)
         elif opcion == "5":
-            print("Consultar el historial de consultas de una mascota")
+            from funciones_consultas import consultar_historial
+            codigo_mascota = input("Código de la mascota: ")
+            consultar_historial(codigo_mascota)
         elif opcion == "6":
             print("Registrar una vacuna")
 programa()
